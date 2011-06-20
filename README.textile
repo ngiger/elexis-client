@@ -1,0 +1,22 @@
+h1. Demo-Installation von Elexis
+
+Zeigt auf, wie rasch ein Server für Elexis unter Linux aufgesetzt werden kann, solange man keine Angst vor der Linux-Kommandozeile hat.
+
+Voraussetzungen:
+
+Debian Squeeze installiert.  Folgende Pakete sind zusätzlich  zu installieren:
+
+@sudo apt-get install puppet git@
+
+Dann dieses Projekt runterladen.
+
+@git clone https://github.com/ngiger/elexis-client.git@
+
+Nun noch folgende Befehle aufrufen.
+@cd elexis-client && git submodule update --init@
+@cd ..@
+@sudo puppet apply elexis-client/manifests/site.pp --modulepath elexis-client/modules@
+
+
+
+

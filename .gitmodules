@@ -1,0 +1,30 @@
+[submodule "modules/x2go"]
+
+[submodule "modules/postgres"]
+
+[submodule "modules/motd"]
+
+[submodule "modules/dnsmasq"]
+
+[submodule "modules/nginx"]
+
+[submodule "modules/elexis"]
+
+[submodule "modules/nginx"]
+	path = modules/nginx
+	url = git://github.com/ngiger/puppet-nginx.git
+[submodule "modules/x2go"]
+	path = modules/x2go
+	url = git://github.com/ngiger/puppet-x2go.git
+[submodule "modules/postgres"]
+	path = modules/postgres
+	url = git://github.com/ngiger/puppet-postgres.git
+[submodule "modules/motd"]
+	path = modules/motd
+	url = git://puppet-modules.git.puzzle.ch/module-motd.git
+[submodule "modules/dnsmasq"]
+	path = modules/dnsmasq
+	url = git://github.com/ngiger/puppet-dnsmasq.git
+[submodule "modules/elexis"]
+	path = modules/elexis
+	url = git://github.com/ngiger/puppet-elexis.git
