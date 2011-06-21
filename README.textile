@@ -14,8 +14,7 @@ Dann dieses Projekt runterladen.
 
 Nun noch folgende Befehle aufrufen.
 @cd elexis-client && git submodule update --init@
-@cd ..@
-@sudo puppet apply elexis-client/manifests/site.pp --modulepath elexis-client/modules@
+@sudo puppet apply manifests/site.pp --modulepath modules@
 
 
 
